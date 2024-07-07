@@ -1,4 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  font-weight: 450;
+}
+
 a {
-  background: red;
+  text-decoration: none;
+  color: #222222;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header img {
+  width: 300px;
+  height: 80px;
+}
+header .links {
+  width: 300px;
+  font-size: 20px;
+  line-height: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 500px;
+}
+header .links a:nth-child(1) {
+  color: #0082F3;
+}
+
+.firstcontent {
+  border: 2px solid black;
+  width: 1339px;
+  height: 700px;
 }
 /*# sourceMappingURL=main.css.map */
