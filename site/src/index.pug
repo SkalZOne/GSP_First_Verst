@@ -1,3 +1,10 @@
+mixin links 
+    .stores 
+        .content
+            img(src="img/googleplay.png", alt="")
+        .content
+            img(src="img/appstore.png", alt="")
+
 doctype html
 html(lang="en")
     head
@@ -20,8 +27,11 @@ html(lang="en")
 
             p Get Instant Loans 
             p Get instant loans with ease on your smartphone.
-            .stores 
-                .content
-                    img(src="img/googleplay.png", alt="")
-                .content
-                    img(src="img/appstore.png", alt="")
+            +links
+
+        .secondcontent
+            img(src="img/secondman.png", alt="")
+            .rightblock
+                p Save on your own terms
+                p Savings give you financial options
+                +links

@@ -15,6 +15,31 @@ button {
   border: none;
 }
 
+.stores {
+  width: 350px;
+  height: 50px;
+  margin-left: 150px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.stores .content {
+  background-color: #EEEAFF;
+  border-radius: 10px;
+  width: 147px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stores .content img {
+  position: relative;
+  width: 135px;
+  height: 40px;
+  left: 0;
+  top: 0;
+}
+
 header {
   height: 100px;
   display: flex;
@@ -74,28 +99,33 @@ header .links a:nth-child(1) {
   line-height: 35px;
   margin-left: 150px;
 }
-.firstcontent .stores {
-  width: 350px;
-  height: 50px;
-  margin-left: 150px;
-  margin-top: 50px;
+
+.secondcontent {
+  border: 2px solid black;
+  width: 1339px;
+  height: 400px;
   display: flex;
-  justify-content: space-between;
 }
-.firstcontent .stores .content {
-  background-color: #EEEAFF;
-  border-radius: 10px;
-  width: 147px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.secondcontent img {
+  width: 374px;
+  height: 397px;
 }
-.firstcontent .stores .content img {
+.secondcontent .rightblock {
+  border: 2px solid black;
   position: relative;
-  width: 135px;
-  height: 40px;
-  left: 0;
-  top: 0;
+  margin-left: 400px;
+}
+.secondcontent .rightblock p:nth-child(1) {
+  font-size: 55px;
+  line-height: 60px;
+  width: 392px;
+  margin: 20px 0;
+  margin-left: 150px;
+}
+.secondcontent .rightblock p:nth-child(2) {
+  width: 310px;
+  font-size: 24px;
+  line-height: 35px;
+  margin-left: 150px;
 }
 /*# sourceMappingURL=main.css.map */
