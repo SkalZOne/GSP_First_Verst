@@ -18,14 +18,6 @@
 
 }
 
-@mixin inner($color) {
-        .headline {
-            width: 288px;
-            height: 12px;
-            background-color: $color;
-        }
-}
-
 body {
     font-family: "Work Sans", sans-serif;
     margin: 0;
@@ -67,6 +59,23 @@ button {
             top: 0;
         }
     }
+    .content1 {
+        background-color: white;
+        border-radius: 10px;
+        width: 147px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            position: relative;
+            width: 135px;
+            height: 40px;
+            left: 0;
+            top: 0;
+        }
+    }    
 }
 
 header {
@@ -174,6 +183,7 @@ header {
             display: flex;
             flex-direction: column;
             align-items: center;
+            box-shadow: 0 1px 10px 0 #B7B7B7;
 
             .headline {
                 width: 288px;
@@ -224,3 +234,25 @@ header {
     }
 }
 
+.fourthcontent {
+    width: 1339px;
+    height: 371px;
+    background-color: #31C5A1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .stores {
+        margin: 0;
+    }
+
+    p {
+        width: 555px;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        color: white;
+        margin-bottom: 40px;
+    }
+}

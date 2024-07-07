@@ -39,6 +39,22 @@ button {
   left: 0;
   top: 0;
 }
+.stores .content1 {
+  background-color: white;
+  border-radius: 10px;
+  width: 147px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stores .content1 img {
+  position: relative;
+  width: 135px;
+  height: 40px;
+  left: 0;
+  top: 0;
+}
 
 header {
   height: 100px;
@@ -157,6 +173,7 @@ header .links a:nth-child(1) {
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0 1px 10px 0 #B7B7B7;
 }
 .thirdcontent .content .inner .headline {
   width: 288px;
@@ -195,5 +212,26 @@ header .links a:nth-child(1) {
   line-height: 30px;
   text-align: center;
   width: 263px;
+}
+
+.fourthcontent {
+  width: 1339px;
+  height: 371px;
+  background-color: #31C5A1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fourthcontent .stores {
+  margin: 0;
+}
+.fourthcontent p {
+  width: 555px;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
 }
 /*# sourceMappingURL=main.css.map */
