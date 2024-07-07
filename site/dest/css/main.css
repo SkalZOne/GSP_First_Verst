@@ -101,7 +101,6 @@ header .links a:nth-child(1) {
 }
 
 .secondcontent {
-  border: 2px solid black;
   width: 1339px;
   height: 400px;
   display: flex;
@@ -111,7 +110,6 @@ header .links a:nth-child(1) {
   height: 397px;
 }
 .secondcontent .rightblock {
-  border: 2px solid black;
   position: relative;
   margin-left: 400px;
 }
@@ -127,5 +125,75 @@ header .links a:nth-child(1) {
   font-size: 24px;
   line-height: 35px;
   margin-left: 150px;
+}
+
+.thirdcontent {
+  width: 1339px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thirdcontent p {
+  width: 291px;
+  font-size: 45px;
+  line-height: 50px;
+  color: #333333;
+}
+.thirdcontent .content {
+  width: 1000px;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.thirdcontent .content img {
+  width: 40px;
+  height: 35px;
+}
+.thirdcontent .content .inner {
+  width: 288px;
+  height: 339px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thirdcontent .content .inner .headline {
+  width: 288px;
+  height: 12px;
+}
+.thirdcontent .content .inner .first {
+  background-color: #582EFF;
+}
+.thirdcontent .content .inner .second {
+  background-color: #FF814A;
+}
+.thirdcontent .content .inner .third {
+  background-color: #31C5A1;
+}
+.thirdcontent .content .inner img {
+  margin-top: 50px;
+}
+.thirdcontent .content .inner .telephone {
+  width: 51.85px;
+  height: 60px;
+}
+.thirdcontent .content .inner .notepad {
+  width: 70px;
+  height: 60px;
+}
+.thirdcontent .content .inner .barter {
+  width: 78px;
+  height: 68px;
+}
+.thirdcontent .content .inner p:nth-child(3) {
+  font-size: 18px;
+  text-align: center;
+}
+.thirdcontent .content .inner p:nth-child(4) {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  width: 263px;
 }
 /*# sourceMappingURL=main.css.map */

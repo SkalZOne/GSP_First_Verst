@@ -15,6 +15,15 @@
         line-height: 35px;
         margin-left: 150px;
     }
+
+}
+
+@mixin inner($color) {
+        .headline {
+            width: 288px;
+            height: 12px;
+            background-color: $color;
+        }
 }
 
 body {
@@ -117,7 +126,6 @@ header {
 }
 
 .secondcontent {
-    border: 2px solid black;
     width: 1339px;
     height: 400px;
     display: flex;
@@ -128,9 +136,91 @@ header {
     }
 
     .rightblock {
-        border: 2px solid black;
         position: relative;
         margin-left: 400px;
         @include ptext(1, 2, 392px, 310px);
     }
 }
+
+.thirdcontent {
+    width: 1339px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        width: 291px;
+        font-size: 45px;
+        line-height: 50px;
+        color: #333333;
+    }
+
+    .content {
+        width: 1000px;
+        height: 350px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            width: 40px;
+            height: 35px;
+        }
+
+        .inner {
+            width: 288px;
+            height: 339px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .headline {
+                width: 288px;
+                height: 12px;
+            }
+            .first {
+                background-color: #582EFF;
+            }
+            .second {
+                background-color: #FF814A;
+            }
+            .third {
+                background-color: #31C5A1;
+            }
+        
+            img {
+                margin-top: 50px;
+            }
+
+            .telephone {
+                width: 51.85px;
+                height: 60px;
+            }
+
+            .notepad {
+                width: 70px;
+                height: 60px;
+            }
+
+            .barter {
+                width: 78px;
+                height: 68px;
+            }
+
+            p:nth-child(3) {
+                font-size: 18px;
+                text-align: center;
+            }
+
+            p:nth-child(4) {
+                font-size: 16px;
+                line-height: 30px;
+                text-align: center;
+                width: 263px;
+            }
+        
+        }
+    }
+}
+
