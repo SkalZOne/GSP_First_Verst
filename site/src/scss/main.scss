@@ -4,11 +4,16 @@ body {
     font-family: "Work Sans", sans-serif;
     margin: 0;
     font-weight: 450;
+    color: #333333;
 }
 
 a {
     text-decoration: none;
     color: #222222;
+}
+
+button {
+    border: none;
 }
 
 header {
@@ -18,8 +23,9 @@ header {
     justify-content: space-between;
 
     img {
-        width: 300px;
-        height: 80px;
+        width: 250px;
+        height: 60px;
+        margin-left: 100px;
     }
 
     .links {
@@ -37,7 +43,71 @@ header {
 }
 
 .firstcontent {
-    border: 2px solid black;
     width: 1339px;
     height: 700px;
+
+    button {
+        width: 36px;
+        height: 108px;
+        margin-left: 2px;
+        background-color: #39CDCC;
+        box-shadow: 0 0 10 0 #0000001A;
+        border-radius: 0 0 6px 6px;
+        
+        p {
+            rotate: 90deg;
+            position: relative;
+            right: 43px;
+            width: 108px;
+        }
+    }
+
+    img {
+        position: absolute;
+        left: 850px;
+        top: 40px;
+    }
+
+    p:nth-child(3) {
+        font-size: 55px;
+        line-height: 60px;
+        width: 306px;
+        margin: 20px 0;
+        margin-left: 150px;
+    }
+
+    p:nth-child(4) {
+        width: 434px;
+        font-size: 24px;
+        line-height: 35px;
+        margin-left: 150px;
+    }
+
+    .stores {
+        width: 350px;
+        height: 50px;
+        margin-left: 150px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        .content {
+            background-color: #EEEAFF;
+            border-radius: 10px;
+            width: 147px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                position: relative;
+                width: 135px;
+                height: 40px;
+                left: 0;
+                top: 0;
+            }
+        }
+    }
 }
+
